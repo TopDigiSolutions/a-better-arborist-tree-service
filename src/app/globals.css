@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
